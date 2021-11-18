@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -i --rm -v `pwd`:/usr/src -w /usr/src --name downtime-analyze downtime -C analyze.php "$@" <&0
