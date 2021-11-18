@@ -26,7 +26,7 @@ For example:
 Generates `100000` lines in date range between `0:1:0` and `0:1:59` 
 with `95%` access level and with response time `3`. 
 
-#Analyze
+# Analyze
 
 `./analyze` &mdash; runs `analyze.php` inside docker container. Run it without parameters to see following usage info.
 ```
@@ -40,11 +40,11 @@ Parse access log from standard input for inaccessible intervals according to opt
 
 -m - show memory peak usage
 ```
-#Memory usage
+# Memory usage
 
 Sample from "Play and study" parses 400 000 lines and use 1,433Mb of memory.
 
-#To do
+# To do
 
 - PSR
 - Check sources for comments and types
