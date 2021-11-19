@@ -44,6 +44,11 @@ Parse access log from standard input for inaccessible intervals according to opt
 
 Sample from "Play and study" parses 400 000 lines and use 1,433Mb of memory.
 
+# Etc
+
+`./bash` - starts bash shell, pass all given parameters.
+`./run` - execute passed command and parametes, used in any other scripts
+
 # To do
 
 - PSR
