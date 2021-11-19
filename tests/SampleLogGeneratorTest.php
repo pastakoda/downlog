@@ -1,11 +1,11 @@
 <?php
-use Farpost\Downtime\LogParser;
-use Farpost\Downtime\SampleLogGenerator;
+use Farpost\Downlog\LogParser;
+use Farpost\Downlog\SampleLogGenerator;
 class SampleLogGeneratorTest extends PHPUnit\Framework\TestCase
 {
 
     /**
-     * @covers \Farpost\Downtime\SampleLogGenerator::getLogLineStream
+     * @covers \Farpost\Downlog\SampleLogGenerator::getLogLineStream
      */
     function testLineGenerator(){
         $start = new DateTimeImmutable('2019-10-10 00:00');$finish = new DateTimeImmutable('2019-10-10 10:00');
@@ -21,7 +21,7 @@ class SampleLogGeneratorTest extends PHPUnit\Framework\TestCase
 
 
     /**
-     * @covers \Farpost\Downtime\SampleLogGenerator::formatLine
+     * @covers \Farpost\Downlog\SampleLogGenerator::formatLine
      */
     function testFormatLine(){
         $date = new DateTimeImmutable('2020-10-20T20:00:00');
@@ -38,7 +38,7 @@ class SampleLogGeneratorTest extends PHPUnit\Framework\TestCase
     /**
      * @dataProvider sampleIntervalProvider
      * @throws Exception
-     * @covers \Farpost\Downtime\SampleLogGenerator::testGetLogStream
+     * @covers \Farpost\Downlog\SampleLogGenerator::testGetLogStream
      */
     function testGetArrayGenerator(string $start,string $finish, float $accessLimit,float $duration, int $requestCount){
 

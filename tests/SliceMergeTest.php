@@ -1,6 +1,6 @@
 <?php
-use Farpost\Downtime\SliceMerge;
-use Farpost\Downtime\Slice;
+use Farpost\Downlog\SliceMerge;
+use Farpost\Downlog\Slice;
 class SliceMergeTest extends PHPUnit\Framework\TestCase
 {
 

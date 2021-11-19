@@ -1,5 +1,5 @@
 <?php
-use Farpost\Downtime\LogEntry;
+use Farpost\Downlog\LogEntry;
 class LogEntryTest extends PHPUnit\Framework\TestCase
 {
 

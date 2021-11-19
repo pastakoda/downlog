@@ -1,10 +1,10 @@
 {
-    "name": "farpost/downtime",
-    "description": "Downtime access log analyzer",
+    "name": "farpost/downlog",
+    "description": "Downlog access log analyzer",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Farpost\\Downtime\\": "src/"
+            "Farpost\\Downlog\\": "src/"
         }
     },
     "require-dev": {

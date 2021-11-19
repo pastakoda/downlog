@@ -27,7 +27,7 @@ if(!is_numeric($t) || $u<=0 || $u >100 ){
     die;
 }
 
-$command = new \Farpost\Downtime\Command();
+$command = new \Farpost\Downlog\Command();
 $command->run(STDIN,$u,$t,STDOUT);
 
 if(key_exists('m',$options)){

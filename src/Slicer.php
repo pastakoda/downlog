@@ -1,8 +1,8 @@
 <?php
-namespace Farpost\Downtime;
+namespace Farpost\Downlog;
 use DateInterval;
 use DateTimeImmutable;
-use Farpost\Downtime\LogEntry;
+use Farpost\Downlog\LogEntry;
 use Generator;
 
 class Slicer

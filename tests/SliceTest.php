@@ -1,5 +1,5 @@
 <?php
-use Farpost\Downtime\Slice;
+use Farpost\Downlog\Slice;
 class SliceTest extends PHPUnit\Framework\TestCase
 {
 
@@ -35,7 +35,7 @@ class SliceTest extends PHPUnit\Framework\TestCase
      * @param $accessLevel
      * @throws Exception
      * @dataProvider getSlices
-     * @covers \Farpost\Downtime\Slice
+     * @covers \Farpost\Downlog\Slice
      */
 
 

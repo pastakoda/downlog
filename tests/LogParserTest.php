@@ -1,6 +1,6 @@
 <?php
-use Farpost\Downtime\LogParser;
-use Farpost\Downtime\LogEntry;
+use Farpost\Downlog\LogParser;
+use Farpost\Downlog\LogEntry;
 class LogParserTest extends PHPUnit\Framework\TestCase
 {
 
@@ -18,7 +18,7 @@ class LogParserTest extends PHPUnit\Framework\TestCase
     /**
      * @param string $line
      * @dataProvider logSample
-     * @covers \Farpost\Downtime\LogParser::parse
+     * @covers \Farpost\Downlog\LogParser::parse
      */
 
     function testShouldParse(string $line): void{

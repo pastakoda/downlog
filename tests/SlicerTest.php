@@ -1,6 +1,6 @@
 <?php
-use Farpost\Downtime\Slicer;
-use Farpost\Downtime\LogEntry;
+use Farpost\Downlog\Slicer;
+use Farpost\Downlog\LogEntry;
 class SlicerTest extends PHPUnit\Framework\TestCase
 {
 

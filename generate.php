@@ -1,6 +1,6 @@
 #!/usr/local/bin/php
 <?php
-use Farpost\Downtime\SampleLogGenerator;
+use Farpost\Downlog\SampleLogGenerator;
 require __DIR__ . '/vendor/autoload.php';
 
 

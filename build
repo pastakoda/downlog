@@ -1,4 +1,4 @@
 #!/bin/bash
-docker build -t downtime .
+docker build -t downlog .
 ./run composer install
 ./run composer run-script test

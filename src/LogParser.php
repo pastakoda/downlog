@@ -1,5 +1,5 @@
 <?php
-namespace Farpost\Downtime;
+namespace Farpost\Downlog;
 
 use DateTimeImmutable;
 use RuntimeException;

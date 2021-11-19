@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it --rm -v `pwd`:/usr/src -w /usr/src  --name downtime downtime "$@"
+docker run -it --rm -v `pwd`:/usr/src -w /usr/src  --name downlog downlog "$@"

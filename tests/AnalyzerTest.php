@@ -1,7 +1,7 @@
 <?php
-use Farpost\Downtime\Analyzer;
-use Farpost\Downtime\Slice;
-use Farpost\Downtime\SampleLogGenerator;
+use Farpost\Downlog\Analyzer;
+use Farpost\Downlog\Slice;
+use Farpost\Downlog\SampleLogGenerator;
 
 class AnalyzerTest extends PHPUnit\Framework\TestCase
 {
@@ -10,7 +10,7 @@ class AnalyzerTest extends PHPUnit\Framework\TestCase
     /**
      * Huge general test
      * @dataProvider AnalyzerTest::analyzeDataProvider
-     * @covers \Farpost\Downtime\Analyzer::run
+     * @covers \Farpost\Downlog\Analyzer::run
      */
     function testAnalyze($intervals, float $accessLevel, float $responseTimeLimit,array $expectation): void{
 
